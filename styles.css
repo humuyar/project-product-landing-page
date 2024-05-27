@@ -81,6 +81,10 @@ nav > ul {
   justify-content: space-around;
 }
 
+.product > h2 {
+  margin-top: 15px;
+}
+
 #hero {
   display: flex;
   flex-direction: column;
