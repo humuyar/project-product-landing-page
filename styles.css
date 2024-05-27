@@ -69,3 +69,7 @@ header {
   text-align: center;
   margin-left: 20px;
 }
+
+nav {
+  font-weight: 400;
+}
