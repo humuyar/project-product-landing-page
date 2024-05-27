@@ -7,10 +7,13 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
-      @media screen and (min-width: 480px) {
-       body {
-        background-color: rgba(73, 232, 224, 0.556);
-       }
+      @media (max-width: 800px){ /* missing opening { */
+        .product {
+        max-width: 300px;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        }
       }
     </style>
   </head>
@@ -30,7 +33,7 @@
    </header>
    <section id="hero">
     <h2>Face Bueaty, Online Shop</h2>
-    <form id="form" action="">
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
       <input name="email" id="email" type="email" placeholder="Enter your email address" required/>
       <input id="submit" type="submit" value="Get Started" class="btn" />
     </form>
