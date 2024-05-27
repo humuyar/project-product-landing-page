@@ -230,11 +230,11 @@ footer > ul {
   background-color: rgb(138, 64, 168);
   padding: 10px;
 }
-@media (max-width: 800px){
- .product {
+@media (max-width: 800px) {
+  .product {
     max-width: 300px;
     width: 100%;
     margin: 0 auto;
     margin-bottom: 10px;
-    }
+  }
 }
