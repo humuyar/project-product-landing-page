@@ -39,3 +39,7 @@ a {
   background: transparent;
   cursor: pointer;
 }
+
+.grid {
+  display: flex;
+}
