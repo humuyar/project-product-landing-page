@@ -73,3 +73,10 @@ header {
 nav {
   font-weight: 400;
 }
+
+nav > ul {
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
