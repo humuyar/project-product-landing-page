@@ -156,6 +156,10 @@ nav > ul {
   justify-content: center;
 }
 
+footer > ul > li {
+  padding: 0 10px;
+}
+
 .product {
   display: flex;
   flex-direction: column;
@@ -205,10 +209,6 @@ footer {
 footer > ul {
   display: flex;
   justify-content: flex-end;
-}
-
-footer > ul > li {
-  padding: 0 10px;
 }
 
 footer > span {
