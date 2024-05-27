@@ -49,7 +49,6 @@ a {
 }
 
 header {
-  position: fixed;
   top: 0;
   min-height: 75px;
   padding: 20px;
@@ -209,12 +208,25 @@ footer > ul > li {
 }
 
 footer {
-  margin-top: 30px;
+  margin-top: 10px;
   background-color: #ddd;
-  padding: 20px;
+  padding: 10px;
 }
 
 footer > ul {
   display: flex;
   justify-content: flex-start;
+}
+
+.img1 {
+  width: 30px;
+}
+
+.list {
+  margin-top: 7px;
+}
+
+.color {
+  background-color: rgb(138, 64, 168); 
+  padding: 10px; 
 }
