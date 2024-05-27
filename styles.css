@@ -54,3 +54,7 @@ header {
   align-items: center;
   background-color: #eee;
 }
+
+.logo {
+  width: 60vw;
+}
