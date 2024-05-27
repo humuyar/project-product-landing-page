@@ -95,3 +95,9 @@ nav > ul {
   margin-bottom: 20px;
   word-wrap: break-word;
 }
+
+#hero input[type='email'] {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+}
