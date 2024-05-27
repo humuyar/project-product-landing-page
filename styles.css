@@ -14,7 +14,7 @@ body {
 
 #page-wrapper {
   position: relative;
-  background-color: #9ab0b2af;
+  background-color: #a9b3b4af;
 }
 
 li {
@@ -124,11 +124,11 @@ nav > ul {
   transition: background-color 1s;
 }
 
-#features {
+#home {
   margin-top: 30px;
 }
 
-#features .icon {
+#home .icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -137,7 +137,7 @@ nav > ul {
   color: rgb(105, 32, 134);
 }
 
-#features .desc {
+#home .desc {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -216,13 +216,5 @@ footer {
 
 footer > ul {
   display: flex;
-  justify-content: flex-end;
-}
-
-footer > span {
-  margin-top: 5px;
-  display: flex;
-  justify-content: flex-end;
-  font-size: 0.9em;
-  color: #444;
+  justify-content: flex-start;
 }
