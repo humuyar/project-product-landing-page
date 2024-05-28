@@ -39,25 +39,6 @@ I learn a lot things in this project special responsive the page an media query 
 ```clone
   git@github.com:humuyar/project-product-landing-page.git
 ```
-
-## Usage 🎯
-
-```clone
-  cd project-product-landing-page
-```
-```clone
-  code .
-```
-```clone
-  git add .
-```
-```clone
-  git commit -m "anything you want"
-```
-```clone
-  git push
-```
-
 ## Features ⭐
 - This website is a resposive website for online shop. 
 

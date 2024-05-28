@@ -9,6 +9,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 #page-wrapper {
@@ -48,7 +50,7 @@ a {
 }
 
 header {
-  /* position: fixed; */
+  position: fixed;
   top: 0;
   min-height: 75px;
   padding: 20px;
@@ -59,7 +61,7 @@ header {
 }
 
 .logo {
-  width: 60vw;
+  width: 65vw;
 }
 
 .logo > img {
